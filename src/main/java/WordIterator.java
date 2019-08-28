@@ -1,3 +1,4 @@
+/* Module to iterate through all words in the file */
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -18,10 +19,9 @@ class WordIterator {
 
         Scanner sc = new Scanner(new FileInputStream(file));
         while (sc.hasNext()) {
-            al.add(sc.next().toLowerCase());
+            al.add(sc.next().toLowerCase());  // to count same words in both UPPER and lower case as one name
         }
 
-
-        return al.stream();
+        return al.stream();  // returns number of all words
     }
 }

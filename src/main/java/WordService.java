@@ -1,5 +1,4 @@
 /* Reads file and returns words quantity */
-
 import java.io.FileNotFoundException;
 
 class WordService {
@@ -15,7 +14,7 @@ class WordService {
     Result getResult() throws FileNotFoundException {
         Result result = new Result();
         WordIterator wi = new WordIterator(pathToFile);
-        wi.getWords().forEach(result::pushWord);
+        wi.getWords().forEach(result::pushWord);  // selects unique words
 
         return result;
     }

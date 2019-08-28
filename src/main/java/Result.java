@@ -1,5 +1,4 @@
 /* Result data transfer object */
-
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -12,7 +11,7 @@ public class Result {
     }
 
     public int getCount() {
-        return words.size();
+        return words.size();  // number of unique words
     }
 
     ArrayList<WordData> getTopWords() {

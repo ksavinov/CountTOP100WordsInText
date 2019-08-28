@@ -1,3 +1,4 @@
+/* Compares words in the text file */
 import java.util.Comparator;
 import java.util.Map;
 
