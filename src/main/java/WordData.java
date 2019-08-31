@@ -9,16 +9,8 @@ public class WordData {
         count = c;
     }
 
-    public void setCount(Integer count) {
-        this.count = count;
-    }
-
     public Integer getCount() {
         return count;
-    }
-
-    public void setWord(String word) {
-        this.word = word;
     }
 
     public String getWord() {

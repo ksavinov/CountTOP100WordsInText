@@ -9,7 +9,6 @@ public class WordComparator implements Comparator<Map.Entry<String, Integer>> {
         if (o1.getValue().equals(o2.getValue())) {
             return 0;
         }
-
-        return o1.getValue() > o2.getValue() ? 1 : -1;
+        return o1.getValue() > o2.getValue() ? -1 : 1;
     }
 }

@@ -21,7 +21,6 @@ class WordIterator {
         while (sc.hasNext()) {
             al.add(sc.next().toLowerCase());  // to count same words in both UPPER and lower case as one name
         }
-
         return al.stream();  // returns number of all words
     }
 }
