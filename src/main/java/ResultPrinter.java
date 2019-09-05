@@ -8,7 +8,7 @@ public class ResultPrinter {
     }
 
     public void print(Result result) {
-        printer.printTotalAmount(result);
-        printer.printTopWords(result);
+        System.out.println(printer.printTotalAmount(result));
+        System.out.println(printer.printTopWords(result));
     }
 }

@@ -1,5 +1,6 @@
 public interface ResultPrinterInterface {
-    void printTotalAmount(Result result);
+    String printTotalAmount(Result result);
 
-    void printTopWords(Result result);
+    String printTopWords(Result result);
+
 }
